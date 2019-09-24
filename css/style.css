@@ -267,6 +267,9 @@ main .images-bottom img:active {
 
     main .images-bottom {
     grid-template-columns: repeat(2, 1fr) ;}
+    main .images-bottom img {
+        width: 45% ; margin: auto;
+    }
 
     header > nav  img {
     width: 10vw;}
@@ -281,6 +284,9 @@ main .images-bottom img:active {
     font-size: 3vw;}
 
     header > h1 {
-     font-size: 10vw ;}
+     font-size: 12vw ;
+        text-align: center;}
+
+    main .head-content p {font-size: 3vw}
 
 }
