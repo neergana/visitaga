@@ -246,7 +246,8 @@ main .images-bottom img:active {
         margin-left: 20% }
         footer section form input {
             margin: 4% 50%;
-            padding: 6% 150%;}
+            padding: 6% 70%; 
+            padding-right: 150%}
 
     footer section p {
     font-size: 5vw ;}
