@@ -218,3 +218,42 @@ main .images-bottom > img:active {
     opacity: 1 ;
     filter: alpha(opacity=100); /* For IE8 and earlier */
 }
+
+
+/* -----------------------media query ------------------------------ */
+
+@media (max-width: 800px) {
+
+    main .index-main {
+     flex-direction: column;}
+
+    main .index-main div {
+    width: 70%; 
+    margin-bottom: 2% ;
+    margin-left: 10%}
+
+    footer section {
+    flex-direction: column;}
+
+    footer section > div {
+        width: 70% ;
+        margin-left: 10% ;
+        margin-bottom: 1% ;
+        text-align: center;
+    }
+    footer section div , footer section form {
+        width: 50% ;
+        margin-left: 20% }
+
+    footer section p {
+    font-size: 5vw ;}
+
+    main .head-content > div  {
+    flex-direction: column;}
+     main .head-content > div > div {
+        width: 80% ;
+        margin:auto;}
+
+    main .head-content img {
+    margin-left: 5%}
+}
