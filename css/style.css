@@ -27,24 +27,24 @@ a {
 
 
 header > nav > ul {
-    display: flex;
-    justify-content: space-between;
-    border-bottom: 1px solid #ececec;
     padding-bottom: 1%;
-    width: 50%
-    
+    width: 50%;
+    display: inherit;
+    float: right;
+    text-align: right;
+    justify-content: flex-end;
 }
-
+header > nav li {margin-right: 5%;}
+header > nav li:last-child  {margin-right: 0;}
     header > nav > ul a {
-    font-size: 2vw;
+     font-size: 1.2em;
     color: #f4f4f4 ;
     font-family: 'Roboto Condensed', sans-serif;
-    padding-bottom: 9%;
-    
-}
+    padding-bottom: 9%;}
+
 header > nav > ul a:hover {
-    border-bottom: 5px solid #ce2394 ;
-    color: #ce2394 ;
+    border-bottom: 5px solid #e4499a ;
+    color: #e4499a ;
 }
 header .activone {
      border-bottom: 5px solid #e4499a ;
@@ -57,13 +57,14 @@ header > nav  img {
 
 header > h1 {
 
-     font-size: 8vw ;
+     font-size: 6vw ;
     justify-content: center;
      color : #f4f4f4;
+     text-align: center;
     font-family: 'Cairo', sans-serif; 
     letter-spacing: 0.3vw;
     font-family: 'Kalam', cursive;
-   margin-top: 30vh
+   margin-top: 30vh 
  }
 header p {
     color: #dfdfdf ;
@@ -130,6 +131,7 @@ main .index-main {
     padding-bottom: 4%
 }
 main .index-main div {
+    height: 45vh ;
     width: 20%;
     padding: 4% ;
     padding-bottom: 1% ;
@@ -222,7 +224,7 @@ main .images-bottom img:active {
 
 /* -----------------------media query ------------------------------ */
 
-@media (max-width: 800px) {
+@media (max-width: 768px) {
 
     main .index-main {
      flex-direction: column;}
@@ -258,6 +260,8 @@ main .images-bottom img:active {
 
     main .head-content > div  {
     flex-direction: column;}
+    main .index-main div {
+    height: 70vw ;}
      main .head-content > div > div {
         width: 80% ;
         margin:auto;}
