@@ -261,7 +261,7 @@ main .images-bottom img:active {
     main .head-content > div  {
     flex-direction: column;}
     main .index-main div {
-    height: 50vh ;}
+    height: auto; ;}
      main .head-content > div > div {
         width: 80% ;
         margin:auto;}
