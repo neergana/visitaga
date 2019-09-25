@@ -261,7 +261,7 @@ main .images-bottom img:active {
     main .head-content > div  {
     flex-direction: column;}
     main .index-main div {
-    height: auto; ;}
+    height: auto ;}
      main .head-content > div > div {
         width: 80% ;
         margin:auto;}
@@ -271,21 +271,16 @@ main .images-bottom img:active {
 
     main .images-bottom {
     grid-template-columns: repeat(2, 1fr) ; margin: auto;}
-    main .images-bottom img {
-        width: 45% ; margin: auto;
-    }
+    main .images-bottom img { width: 45% ; margin: auto;}
 
-    header > nav  img {
-    width: 10vw;}
+    header > nav  img { width: 10vw;}
 
     header > nav > ul {
     border-bottom: 1% solid #ececec;
     padding-bottom: 1.2%;
     width: 80%}
-    header > nav > ul a:hover {
-    border-bottom: 1% solid #ce2394 ;}
-    header > nav > ul a {
-    font-size: 3vw;}
+    header > nav > ul a:hover { border-bottom: 1% solid #ce2394 ;}
+    header > nav > ul a {font-size: 3vw;}
 
     header > h1 {
      font-size: 12vw ;
