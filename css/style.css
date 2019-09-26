@@ -340,5 +340,8 @@ main .main-hotel > div p {
     main .main-hotel {
         grid-template-columns: repeat(1,1fr);}
 
+    main .main-hotel > div button {font-size: 0.6em}
+main .main-hotel > div p {font-size: 0.6em}
+
 
 }
