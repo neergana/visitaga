@@ -271,6 +271,77 @@ main .main-hotel > div p {
     margin-left: 20%
 }
 
+/* ------------------page 4 ------------------ */
+
+    .contact_us {
+        display: flex;
+        margin-left: 7%;
+        margin-top: -5%
+
+    }
+
+    .contact_us h2 {
+        color: white;
+        margin-bottom: 3vh;
+        font-size: 2vw;
+    }
+    .contact_us > div:first-child {
+        background-color: #2d2b2b;
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        padding: 2%;
+        text-align: center;
+    }
+
+    .contact_us input , .contact_us  button , .contact_us  textarea {
+        border: none;
+        background-color: white;
+        margin: 2% 0;
+        padding: 2% 4% ;
+    }
+    .contact_us  button a {
+        color:#97146a;
+        font-weight: bold;
+        font-size: 2vw;
+    }
+.contact_us  textarea {
+    height: 20vh;
+    resize: none;
+}
+.contact_us > div:last-child {
+        background-color: #330000;
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 800 400'%3E%3Cdefs%3E%3CradialGradient id='a' cx='396' cy='281' r='514' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%23D18'/%3E%3Cstop offset='1' stop-color='%23330000'/%3E%3C/radialGradient%3E%3ClinearGradient id='b' gradientUnits='userSpaceOnUse' x1='400' y1='148' x2='400' y2='333'%3E%3Cstop offset='0' stop-color='%23FA3' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%23FA3' stop-opacity='0.5'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect fill='url(%23a)' width='800' height='400'/%3E%3Cg fill-opacity='0.09'%3E%3Ccircle fill='url(%23b)' cx='267.5' cy='61' r='300'/%3E%3Ccircle fill='url(%23b)' cx='532.5' cy='61' r='300'/%3E%3Ccircle fill='url(%23b)' cx='400' cy='30' r='300'/%3E%3C/g%3E%3C/svg%3E");
+        background-attachment: fixed;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        width: 30%;
+        padding: 2%;
+        text-align: center;
+        color: #e1e1e1
+    }
+.contact_us > div:last-child > div {
+    display: flex;
+    width: 80%;
+    margin-bottom: 10%;
+    margin-right: 5%;
+    text-align: left;
+    align-items: center;
+}
+
+.contact_us > div:last-child div img {
+    width: 50%; 
+}
+
+/* hoover button */
+.contact_us button:hover {
+    background-color: #97146a;
+}
+.contact_us button:hover .button {
+    color: #fff
+}
+
 /* -----------------------media query ------------------------------ */
 
 @media (max-width: 768px) {
@@ -343,5 +414,32 @@ main .main-hotel > div p {
     main .main-hotel > div button {font-size: 0.6em}
 main .main-hotel > div p {font-size: 0.6em}
 
+.contact_us { 
+    flex-direction: column;
+}
+
+.contact_us h2 {
+    font-size: 4vw;
+}
+.contact_us > div:first-child , .contact_us > div:last-child {
+    width: 90% ;
+
+}
+.contact_us input , .contact_us  button , .contact_us  textarea {
+    width: 70% ;
+    padding-right: 0;
+    margin-left: 13%
+}
+.contact_us  button {
+    width: 73.3% ;}
+.contact_us  button a {
+    font-size: 4.4vw;
+}
+
+.contact_us > div:last-child > div {
+    margin-left: 13%;
+    font-size: 2.5vw;
+    align-items: center;
+}
 
 }
