@@ -346,6 +346,7 @@ main .main-hotel > div p {
 
 @media (max-width: 768px) {
 
+    header > h1 {font-size: 2em}
     main .index-main {
      flex-direction: column;}
 
